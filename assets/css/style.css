@@ -10,17 +10,25 @@
 body {
   font-size: 15px;
   background-color: var(--very-light-gray);
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   line-height: 1.5;
 }
 
+.h1,
+.p {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .h1--style {
   color: var(--very-dark-blue);
   font-weight: 400;
-  text-align: center;
-  font-size: 2rem;
+  font-size: 1.75em;
 }
 
 .h1--bolder-darker {
@@ -84,7 +92,6 @@ p {
 .side-card > h3,
 .centered-card > h3 {
   color: var(--very-dark-blue);
-  font-size: 1.5em;
 }
 .side-card > p,
 .centered-card > p {
@@ -112,14 +119,15 @@ p {
 .attribution a:hover {
   text-decoration: underline;
 }
-
+.main {
+  margin: 3em auto;
+}
 /*****************************************
 * Breakouts
 ******************************************/
 @media screen and (min-width: 375px) and (max-width: 1439px) {
   .main {
-    width: 375px;
-    margin: 0 auto;
+    width: 376px;
   }
 }
 
@@ -135,12 +143,6 @@ p {
   .main {
     width: 100%;
     height: 100%;
-  }
-
-  .h1 {
-    width: 375px;
-    margin: 0 auto;
-    margin-bottom: 0.5em;
   }
 
   .main > p {
