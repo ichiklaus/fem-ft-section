@@ -25,14 +25,16 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+<p align="center">
+  <img src="./Screenshot-mobile.png" alt="Feature section mobile preview">
+</p>
 
-<img align="center" src="./Screenshot-mobile.png">
-<img align="center" src="./Screenshot-desktop.png">
+<img align="center" src="./Screenshot-desktop.png" alt="Feature section desktop preview">
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/ichiklaus/fem-ft-section)
-- Live Site URL: [Add live site URL here](https://ichiklaus-fem-ft-section.netlify.app/)
+- Solution URL: [GitHub](https://github.com/ichiklaus/fem-ft-section)
+- Live Site URL: [Netlify](https://ichiklaus-fem-ft-section.netlify.app/)
 
 ## My process
 
